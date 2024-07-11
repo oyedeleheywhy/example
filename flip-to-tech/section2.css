@@ -1,0 +1,63 @@
+.section-2-header{
+  text-align: center; font-size: 28px;
+  font-family: Raleway; font-weight: 2;
+}
+.section-2-member{
+  height: 240px; width: 24%; /*border: 0.5px solid black;
+  */ border-bottom: 12px solid #FEBB00; ;
+  box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.2);
+  text-align: center; margin-right: 20px;
+}
+.section-2-body1{
+  display: flex; margin-left: 21%; margin-top: 70px;
+  position: relative;
+}
+.section-2-member-image{
+  height: 60px; background-color: #FEBB00; width:60px;
+  border-radius: 35px; margin-left: 40%; margin-top: 30px;
+}
+.section-2-p1{
+  font-size: 18px; font-weight: bold;
+  margin-top: 22px; margin-bottom: 0;
+}
+.section-2-p2{
+  width: 78%; font-size: 15px; margin-left: 11%; font-weight: 500; margin-top: 0; 
+}
+.absolute{
+  position: absolute; top: -150px; left: -370px;
+}
+.section-2-2{
+  display: flex; justify-content: space-between; margin: 40px 60px 0 21%;
+}
+.section-2-2-headbutton{
+  width:50px ; height: 40px; margin: 4px; border: 0;
+}
+.section-2-2-headbutton:nth-child(2){
+  background:linear-gradient(to right, #FEBB00,#FAFF00);
+}
+.section-2-3{
+  display: grid; margin-top:20px; margin-left: 23%; font-family: sans-serif; grid-template-columns: 400px 400px;
+  grid-template-rows:240px 240px; row-gap: 60px; column-gap: 60px;
+}
+.section-2-3-members{
+  border: 1px solid #FEBB00; position: relative;
+  padding: 20px 10px 20px 20px; text-align: left;
+}
+.section-2-general{
+  font-size: 25px; font-weight:600; font-family: sans-serif;
+}
+.section-2-generall{
+  font-size: 22px; font-weight:600; font-family: sans-serif; margin-bottom: 0;
+}
+.section2-3absolutebuttons{
+  background-color: black;
+color: white; padding: 8px 18px; font-size: 10px; font-weight: 600; position: absolute; bottom: 16px;
+right: 10px;
+}
+/*.section-2-generall:nth-child(4){
+  margin-bottom: 0;*/
+.section-1-button2-1{
+  background:linear-gradient(to right, #FEBB00,#FAFF00);color: rgb(8, 8, 8); padding: 10px 16px;
+  font-size: 10px; font-weight: 900; margin-top: 30px;
+  border: 0; margin-left: 47%;
+}
